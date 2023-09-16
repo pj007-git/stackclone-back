@@ -58,6 +58,6 @@ exports.loginUser = async (req, res) => {
     let result = {
       message: "Not Registerd",
     };
-    return res.status(401).send(result);
+    return res.status(200).send(result);
   }
 };
